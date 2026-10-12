@@ -1,10 +1,11 @@
-"""Intent drift control through semantic framing and accepted-prefix selection."""
+"""Intent Drift Control: semantic framing and accepted-prefix inference control."""
 
-from .core import Assessment, Frame, Goal, OperatingPoint, project, select_pool
-from .policy import anchor
-from .framing import build_frame
+from .core import Assessment, Frame, Goal, project, select_pool
+from .config import OperatingPoint
+from .framing import anchor, build_frame
 from .assessment import Assessor
-from .controller import execute
+from .control import execute
+
 
 __all__ = [
     "Assessment",

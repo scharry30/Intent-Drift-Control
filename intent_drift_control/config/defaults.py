@@ -1,0 +1,14 @@
+"""Shared generation and framing budgets."""
+
+GENERATOR_BUDGET = 16384
+
+
+FRAME_SEED = 2026100408
+
+
+MASTER = 2026100801
+HOST_TASKS = 16
+SEGMENT_TOKENS = 256
+TEMPERATURE = 0.6
+TOP_P = 0.95
+TOP_K = 20
